@@ -10,8 +10,8 @@ print (int(c) + d)
 
 #automatic implicit typecasting to prevent dataloss
 e = 1.99
-print (type(e))
+print (type(e))  #just printing type for clarity
 f = 3 
-print (type(f))
+print (type(f)) # printing type for clarity 
 
-print (e + f)
+print (e + f) #answer of sum of both variables 

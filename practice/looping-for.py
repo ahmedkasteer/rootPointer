@@ -41,5 +41,6 @@
 for num in range(2,10):
     if num%2 == 0:
         print("Number is even", num)
+        continue
     print("Number is odd", num)
 print("Completed")

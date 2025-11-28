@@ -16,6 +16,7 @@ print (food_menu[0], "This is the first list inside of the list food menu")
 #if i want to print first element of first element of my 2d list food menu then 
 print (food_menu[0][0], " This is the first list item inside of the 1st list (drinks) in the '2D list' 'food menu'.")
 
+#using for loop to modify content of list innside of 2d list
 
 for item in food_menu:
     if (item == drink):
@@ -25,12 +26,15 @@ for item in food_menu:
 print()
 print(food_menu)
 
-
+#using while loop to modify contents of list inside of 2D list
 while (food_menu):
     if (item == drink):
         item[1] = "Coca Cola"
     break
 print(food_menu)
+
+
+
 
 
 

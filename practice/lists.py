@@ -23,10 +23,14 @@ food.pop() #removes last element from the list.
 print()
 food.insert(0, "cake") #this adds cake to the first element of the list at index 0  
 print(food)
-food.append("rasgulla")
+food.append("rasgulla") #appends the element to last of list 
 print(food)
 print()
 print("Sorting list items alphabetically")
-food.sort()
+food.sort() #sorts elements alphabetically 
 print(food)
 print()
+#to clear a list by removing all the elements 
+food.clear()
+print()
+

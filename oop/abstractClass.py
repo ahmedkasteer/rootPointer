@@ -46,4 +46,4 @@ boat.stop()
 car = Car("Mustang", "Red")
 car.go()
 boat.stopEngine()
-#we can't create object of AbstractClass on it's own. 
+#we can't create object of Abstract Class on it's own.

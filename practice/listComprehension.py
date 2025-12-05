@@ -25,3 +25,23 @@ grades = [85, 42, 79, 90,  56, 61, 30]
 
 passingGrades = [grade for grade in grades if grade >=60 ]
 print("Passing grades are:" , passingGrades)
+
+words = ["python", "practice", "code", "list","comprehension"]
+countWords = [len(i) for i in words]
+print(countWords)
+
+data = [3,12,5,20,8,1,15]
+dataSolved = [(i**2) for i in data if i < 10]
+print(dataSolved)
+
+nested_list = [[1,2,3],[4,5],[6,7,8,9]]
+single_list = [inner for i in nested_list for inner in i] #flattening out single list 
+print (single_list)
+
+values = [10,3,7,12,9]
+stringList = [
+        'Even' if i % 2 == 0 else 'Odd'
+        for i in values
+]
+print(stringList)
+

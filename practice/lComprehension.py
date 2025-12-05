@@ -26,3 +26,10 @@ print(matrix)
 
 ###----------------###
 
+list1 = [1,2,3,4,5,6,7,8,9]
+list2 = [33,2,56,4,7,21,8,93,1]
+list3 = [
+   i 
+   for i in list1 if i in list2
+]
+print(list3)

@@ -20,7 +20,7 @@ where hire_date <= "2023-01-03" ;  				-- where employees hired before given dat
 -- or 
 select * 
 from employees
-where emplyee_id != 1; 				-- not comparison operator. 
+where emplyee_id != 1; 		 		-- not comparison operator. 
 -- need to change column name wait a moment. 
 alter table employees
 rename column emplyee_id to employee_id;
